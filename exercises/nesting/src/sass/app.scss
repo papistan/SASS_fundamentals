@@ -21,10 +21,10 @@ body {
 	background-color: #edbcc8
 	}
 
-	.btn:disabled {
+	&.btn:disabled {
 		opacity: 0.5;
 	}
-	
+
 }
 
 

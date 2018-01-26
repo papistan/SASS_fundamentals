@@ -4,6 +4,7 @@
   margin: auto;
   background: #eee;
 
+
   .sidebar,
   .main { padding: 10px; }
 
@@ -11,10 +12,26 @@
     margin-left: 220px;
     min-height: 100vh;
     border-left: 2px solid #333;
+
+
+
+  }
+
+  &.right-nav {
+    > .main {
+      margin-right: 220px;
+      margin-left: 0px;
+      border-right: 2px solid #333;
+      border-left: none;
+    }
+    > .sidebar {
+      float: right;
+    }
   }
 
   .sidebar {
     width: 200px;
     float: left;
   }
+
 }
